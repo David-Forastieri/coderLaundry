@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "coderLaundry",
-    "slug": "coderLaundry",
+    "slug": "coderlaundry",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9fc3cae5-4537-4ffc-b048-f51e3b792655"
+      }
+    },
+    "owner": "davidnative",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9fc3cae5-4537-4ffc-b048-f51e3b792655"
     }
   }
 }
